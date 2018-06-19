@@ -10,5 +10,5 @@ $MESSAGE_BODY = "Name: ".$_POST["Name"]."\r\n";
 $MESSAGE_BODY .= "Email: ".$_POST["Email"]."\r\n"; 
 $MESSAGE_BODY .= "Message: ".nl2br($_POST["Message"])."\r\n"; 
 mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); 
-header("Location: http://www.rocman.in/fintec/index.html");
+header("Location: http://www.fintecconsulting.com/index.html");
 ?>
